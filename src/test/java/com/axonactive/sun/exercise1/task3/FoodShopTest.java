@@ -47,4 +47,9 @@ class FoodShopTest {
                 () -> {foodShop.getPriceOfFoodType("D");}
         );
     }
+
+//    @Test(expected = NoSuchElementException.class)
+//    public void getPriceOfFoodType_NameD_ShouldReturnNoSuchElementException2(){
+//        foodShop.getPriceOfFoodType("D");
+//    }
 }

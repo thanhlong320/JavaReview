@@ -18,4 +18,6 @@ public class FoodShop {
         }
         throw new NoSuchElementException();
     }
+
+
 }
